@@ -1,0 +1,7 @@
+#include "exception.h"
+
+ErreurOuverture::ErreurOuverture(int _codeErreur, string _message)
+    codeErreur(_codeErreur),
+    message(_message)
+}
+
